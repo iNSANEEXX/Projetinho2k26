@@ -1,0 +1,57 @@
+body{
+    align-items: center;
+    margin: 0;
+    padding: 60px;
+    color: linear-gradient(to right, rgb(0, 149, 255), rgb(0, 8, 255));
+    font-family: 'Inter', 'Geist Sans', sans-serif;
+    justify-content: center;
+    background: linear-gradient(to right, #0048ff, #5da9ff) ;
+}
+
+.card{
+    table-layout: auto;
+    border: #c4c5c5;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 30px;
+    background-color: aliceblue;
+
+}
+
+h1{
+    color: rgb(0, 140, 255);
+}
+
+button{
+    width: 30%;
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(3, 135, 250);
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+p{
+   color: black; 
+}
+
+button:hover{
+    background-color: #0048ff;
+    transition: scale(2.0);
+}
+
+input{
+    padding: 8px;
+    border-radius: 3px;  
+    border-color: #c4c5c54e;  
+}
+
+img{
+    width: 70px;
+    padding: 20px;
+}
